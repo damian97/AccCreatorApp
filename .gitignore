@@ -1,0 +1,8 @@
+/.idea/
+/src/test/
+/target/
+/src/main/java/META-INF/
+/src/main/java/pl/acc_creator/chromedriver/
+/src/main/java/pl/acc_creator/engine/
+/src/main/java/pl/acc_creator/Main.java
+/src/main/java/pl/acc_creator/MyApp.java
