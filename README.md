@@ -9,11 +9,11 @@ Finally, it will save the login details in a text file in MyDocuments.
 
 The program uses Selenium WebDriver to manage the browser.
 
-##A browser installed on your computer is required for the program to work properly.
+## A browser installed on your computer is required for the program to work properly.
 
-##Supported browsers:
+## Supported browsers:
 
-##Google Chrome✅, FIreFox❌, Opera❌, Internet Explorer❌
+## Google Chrome✅, FIreFox❌, Opera❌, Internet Explorer❌
 
 
 My application progress:
