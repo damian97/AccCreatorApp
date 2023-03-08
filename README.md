@@ -1,6 +1,6 @@
-# AccCreatorApp
+# AccCreatorApp ![This is an image](Tibia_icon.png)
 
-## Hello in my first bigger project in Java. ![This is an image](Tibia_icon.png)
+## Hello in my first bigger project in Java. 
 
 I am creating this program for people who like play in Tibia and often have to create new accounts :D 
 
