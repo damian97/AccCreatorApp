@@ -11,10 +11,10 @@ The program uses Selenium WebDriver to manage the browser.
 
 ## A browser installed on your computer is required for the program to work properly.
 
-## Supported browsers:
-Google Chrome✅, FIreFox❌, Opera❌, Internet Explorer❌
+## Supported browsers:  Google Chrome✅, FIreFox❌, Opera❌, Internet Explorer❌
 
 
+## 
 
 My application progress:
  
