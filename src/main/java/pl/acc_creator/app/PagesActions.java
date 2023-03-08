@@ -1,7 +1,5 @@
 package pl.acc_creator.app;
 
-import java.util.Scanner;
-
 public class PagesActions {
 
 
@@ -65,6 +63,7 @@ public class PagesActions {
 
         // kod do znajdowania emaila i potwierdzania
         Engine.wait(2000);
+
 
         interia.choseSkin();
 

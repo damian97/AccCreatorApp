@@ -1,14 +1,12 @@
 package pl.acc_creator.app;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.UnexpectedAlertBehaviour;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
-import java.lang.reflect.Array;
 import java.util.*;
 
 public class Interia implements Scrapper{
@@ -156,21 +154,10 @@ public class Interia implements Scrapper{
 
 
     public void choseSkin() {
-
-
-//        List<WebElement> links = Engine.driver.findElements(By.tagName("role"));
-//        System.out.println(links.size());
-//        for (int i = 0; i < links.size(); i++) {
-//            System.out.println("Element: " + i + links.get(i).isDisplayed());
-//            System.out.println("Element: " + i + links.get(i).isEnabled());
-//            System.out.println("Element: " + i + links.get(i).getAccessibleName());
-//            System.out.println("Element: " + i + links.get(i).getText());
-//            System.out.println();
-//        }
-
-
-        Engine.driver.findElement(By.xpath("//*[@id=\"wrapper\"]/div[3]/div/div[2]/div/div[1]")).click();
-        Engine.wait(2000);
+        if (Engine.choseSkinWindow) {
+            Engine.driver.findElement(By.xpath("//*[@id=\"wrapper\"]/div[3]/div/div[2]/div/div[1]")).click();
+            Engine.wait(2000);
+        }
     }
 
     public void findConfirmMessage() {

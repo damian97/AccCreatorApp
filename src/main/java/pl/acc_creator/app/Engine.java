@@ -4,15 +4,12 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.UnexpectedAlertBehaviour;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-
-import java.lang.reflect.Array;
-import java.util.Arrays;
 import java.util.Random;
 
 
 public class Engine {
 
-
+    static boolean choseSkinWindow = false;
     static boolean testPhase = true;
     static boolean headless = false;
 
