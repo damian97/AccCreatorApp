@@ -24,6 +24,15 @@ My application progress:
   
     ❌   FireFox Driver 
   
-    ❌   GIU 
+    ❌   Create multiple accounts at once
   
   
+*How to use it?*
+
+*Requirements:*
+
+- **You need install Java on your computer** *This site was built using [GitHub Pages](https://pages.github.com/)*
+* **You must have a browser installed on your computer**
++ **sss**
+
+
