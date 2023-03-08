@@ -4,14 +4,20 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.UnexpectedAlertBehaviour;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+
+import java.io.IOException;
 import java.util.Random;
 
 
 public class Engine {
 
     static boolean choseSkinWindow = false;
-    static boolean testPhase = true;
+    static boolean openFile = true;
     static boolean headless = false;
+
+
+
+    static boolean testPhase = true;
 
 
     static int[] numbers = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
@@ -77,6 +83,16 @@ public class Engine {
         }
     }
 
+
+    static void openFileAfterCreate() {
+        if (openFile) {
+            try {
+                Runtime.getRuntime().exec("explorer C:\\Users\\srync\\Documents\\Login_Data_Tibia_Interia_by_Sryncu.txt");
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+        }
+    }
 
 
     static void drawPerson() {

@@ -63,8 +63,27 @@ public class Menu {
 
             System.out.println("Hello. I created this program for you. The program will create an account on Interia.pl and Tibia.com. It can also confirm email and enter R-Key");
             System.out.println("Date to login will be saved to txt file (default) in MyDocuments.");
-            System.out.println("Program moze tworzyc konta na losowych danych pobranych ze zbioru danych lub tworzyc na podstawie danych podanych przez uzytkownika.");
-            System.out.println("Program moze tworzyc wiele kont, wystarczy wpisac ilosc np: 5 - wtedy utworzy 5 kont na interia i 5 kont w Tibii");
+            System.out.println("The program creates accounts on random data taken from a dataset that you can modify.");
+            System.out.println("Just run the program and drink your coffee or beer and it will do everything for you. Have fun!");
+
+            System.out.println("Are you ready? Press Enter");
+
+            Scanner sk = new Scanner(System.in);
+            sk.nextLine();
+
+
+            pa.makeAccountInteria();
+            Engine.wait(3000);
+            pa.makeAccountTibia();
+            pa.confirmAccount();
+
+            ManageFile mf = new ManageFile();
+            mf.addAccountData();
+
+            System.out.println("The account has been created and confirmed and the data to login has been saved to a file");
+            System.out.println("Patch to file: " + Engine.documentsPath);
+
+            Engine.openFileAfterCreate();
 
 
         } else {
@@ -130,21 +149,20 @@ public class Menu {
                         System.out.println("Konto zostało załorzone, oraz potwierdzone, dane zostały zapisane do pliku");
                         System.out.println(Engine.documentsPath);
 
+                        Engine.openFileAfterCreate();
+
                         break;
                     case 1:
-                        System.out.println("Metoda na tworzenie konta na podanych danych");
+                        System.out.println("Ciągle w fazie rozwoju");
                         break;
                     case 2:
-                        System.out.println("Metoda na zmiane pliku z danymi");
-
+                        System.out.println("Ciągle w fazie rozwoju");
                         break;
                     case 4:
                         System.out.println("Koniec dzialania programu");
                         break;
                     case 3:
-                        System.out.println("Tworzenie postaci");
-
-
+                        System.out.println("Ciągle w fazie rozwoju");
                         break;
                     default:
                         System.out.println("Wprowadz poprawne dane [0-4]");
