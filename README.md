@@ -12,6 +12,15 @@ The program uses Selenium WebDriver to manage the browser.
 ## A browser installed on your computer is required for the program to work properly.
 
 ## Supported browsers:  Google Chrome✅, FireFox❌, Opera❌, Internet Explorer❌
+    
+❇️ *How to use it?*
+
+‼️ *Requirements:*
+
+- **You need install Java on your computer.** *This site was built using [GitHub Pages](https://pages.github.com/)*
+* **You must have a browser installed on your computer.** *This site was built using [GitHub Pages](https://pages.github.com/)*
++ **sss**
+
 
 ## 
 
@@ -26,14 +35,6 @@ My application progress:
     ❌   Opera Driver 
   
     ❌   Create multiple accounts at once
-  
-  
-❇️ *How to use it?*
-
-‼️ *Requirements:*
-
-- **You need install Java on your computer.** *This site was built using [GitHub Pages](https://pages.github.com/)*
-* **You must have a browser installed on your computer.** *This site was built using [GitHub Pages](https://pages.github.com/)*
-+ **sss**
-
-
+    
+    
+     👷👷👷👷	  ...  Under construction  ...    👷👷👷👷
