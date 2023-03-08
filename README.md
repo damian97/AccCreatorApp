@@ -24,19 +24,19 @@ The program uses Selenium WebDriver to manage the browser.
 
 ## 
 
-My application progress:
+✍️ My application progress:
  
-    ✔️   Google Chrome driver
+   ✔️   Google Chrome driver
   
-    ❌   GUI 
+   ❌   GUI 
   
-    ❌   FireFox Driver 
+   ❌   FireFox Driver 
     
-    ❌   Opera Driver 
-  
-    ❌   Create multiple accounts at once
-    
+   ❌   Opera Driver 
+      
+   ❌   Create multiple accounts at once
     
 
 
+## 
 👷👷👷👷	  ...  Under construction  ...    👷👷👷👷
