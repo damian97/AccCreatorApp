@@ -18,6 +18,7 @@ public class Engine {
 
 
     static boolean testPhase = true;
+    static boolean random = true;
 
 
     static int[] numbers = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
@@ -33,8 +34,8 @@ public class Engine {
             "Ewa", "Fabian", "Frantisek", "Grzegorz", "Halina",
             "Iga", "Iwona", "Jakub", "Jan", "Joanna",
             "Jozef", "Kamil", "Karol", "Katarzyna", "Krzysztof",
-            "Krystyna", "Lech", "Ludwik", "Łukasz", "Marek",
-            "Mariusz", "Marta", "Mateusz", "Michał", "Natalia"};
+            "Krystyna", "Lech", "Ludwik", "Lukasz", "Marek",
+            "Mariusz", "Marta", "Mateusz", "Michal", "Natalia"};
 
 
 
@@ -98,26 +99,28 @@ public class Engine {
     static void drawPerson() {
 
 
-        int randomFirstName = (int) (Math.random() * firstNames.length);
-        int randomSecondName = (int) (Math.random() * firstNames.length);
-        String randomDay = String.valueOf((int) (Math.random() * 31 + 1));        //zakres 1-31
-        int randomMonth = (int) (Math.random() * 12 + 1);               //zakres 1-12
-        Random rand = new Random();
-        int lowerBound = 1965;
-        int upperBound = 2007;
-        int randomNum = rand.nextInt((upperBound - lowerBound) + 1) + lowerBound;   //zakres 1965-2007
-        String randomYear = String.valueOf(randomNum);
+        if (Engine.random) {
+
+            int randomFirstName = (int) (Math.random() * firstNames.length);
+            int randomSecondName = (int) (Math.random() * firstNames.length);
+            String randomDay = String.valueOf((int) (Math.random() * 31 + 1));        //zakres 1-31
+            int randomMonth = (int) (Math.random() * 12 + 1);               //zakres 1-12
+            Random rand = new Random();
+            int lowerBound = 1965;
+            int upperBound = 2007;
+            int randomNum = rand.nextInt((upperBound - lowerBound) + 1) + lowerBound;   //zakres 1965-2007
+            String randomYear = String.valueOf(randomNum);
 
 
-
-        firstName = firstNames[randomFirstName];
-        secondName = secondNames[randomSecondName];
-        Birthdate.day = randomDay;
-        Birthdate.month = randomMonth;
-        Birthdate.year = randomYear;
-        gender = choseGender(firstName);
-        email = blendMail();
-        password = blendPassword();
+            firstName = firstNames[randomFirstName];
+            secondName = secondNames[randomSecondName];
+            Birthdate.day = randomDay;
+            Birthdate.month = randomMonth;
+            Birthdate.year = randomYear;
+            gender = choseGender(firstName);
+            email = blendMail();
+            password = blendPassword();
+        }
 
         makeDataUserTable();
 
