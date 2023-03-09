@@ -17,8 +17,8 @@ The program uses Selenium WebDriver to manage the browser.
 
 ‼️ *Requirements:*
 
-- **You need install Java on your computer.** *This site was built using [GitHub Pages](https://pages.github.com/)*
-* **You must have a browser installed on your computer.** *This site was built using [GitHub Pages](https://pages.github.com/)*
+- **You need install Java on your computer.** *You can download it from here [Oracle Java](https://www.oracle.com/pl/java/technologies/downloads/)*
+* **You must have a browser installed on your computer.** *For example: Google Chrome*
 + **sss**
 
 
