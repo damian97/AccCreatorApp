@@ -11,7 +11,6 @@ public class Gui implements ActionListener {
     static int accAmount;
 
 
-
     public static void main(String[] args) {
 
         JPanel panel = new JPanel();
